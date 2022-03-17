@@ -1,0 +1,11 @@
+D:\DDUSEM6\SOC\Project\DocumentManagement_Host\DocumentManagement_Host\bin\Debug\DocumentManagement_Host.exe.config
+D:\DDUSEM6\SOC\Project\DocumentManagement_Host\DocumentManagement_Host\bin\Debug\DocumentManagement_Host.exe
+D:\DDUSEM6\SOC\Project\DocumentManagement_Host\DocumentManagement_Host\bin\Debug\DocumentManagement_Host.pdb
+D:\DDUSEM6\SOC\Project\DocumentManagement_Host\DocumentManagement_Host\bin\Debug\DocumentManagement.dll
+D:\DDUSEM6\SOC\Project\DocumentManagement_Host\DocumentManagement_Host\bin\Debug\DocumentManagement.pdb
+D:\DDUSEM6\SOC\Project\DocumentManagement_Host\DocumentManagement_Host\bin\Debug\DocumentManagement.dll.config
+D:\DDUSEM6\SOC\Project\DocumentManagement_Host\DocumentManagement_Host\obj\Debug\DocumentManagement_Host.csproj.AssemblyReference.cache
+D:\DDUSEM6\SOC\Project\DocumentManagement_Host\DocumentManagement_Host\obj\Debug\DocumentManagement_Host.csproj.CoreCompileInputs.cache
+D:\DDUSEM6\SOC\Project\DocumentManagement_Host\DocumentManagement_Host\obj\Debug\DocumentManagement_Host.csproj.CopyComplete
+D:\DDUSEM6\SOC\Project\DocumentManagement_Host\DocumentManagement_Host\obj\Debug\DocumentManagement_Host.exe
+D:\DDUSEM6\SOC\Project\DocumentManagement_Host\DocumentManagement_Host\obj\Debug\DocumentManagement_Host.pdb

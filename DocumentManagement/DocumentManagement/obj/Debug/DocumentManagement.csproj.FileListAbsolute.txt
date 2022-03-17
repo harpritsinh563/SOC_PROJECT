@@ -1,0 +1,7 @@
+D:\DDUSEM6\SOC\Project\DocumentManagement\DocumentManagement\obj\Debug\DocumentManagement.csproj.AssemblyReference.cache
+D:\DDUSEM6\SOC\Project\DocumentManagement\DocumentManagement\obj\Debug\DocumentManagement.csproj.CoreCompileInputs.cache
+D:\DDUSEM6\SOC\Project\DocumentManagement\DocumentManagement\bin\Debug\DocumentManagement.dll.config
+D:\DDUSEM6\SOC\Project\DocumentManagement\DocumentManagement\bin\Debug\DocumentManagement.dll
+D:\DDUSEM6\SOC\Project\DocumentManagement\DocumentManagement\bin\Debug\DocumentManagement.pdb
+D:\DDUSEM6\SOC\Project\DocumentManagement\DocumentManagement\obj\Debug\DocumentManagement.dll
+D:\DDUSEM6\SOC\Project\DocumentManagement\DocumentManagement\obj\Debug\DocumentManagement.pdb
