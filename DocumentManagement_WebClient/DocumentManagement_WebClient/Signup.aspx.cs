@@ -10,7 +10,7 @@ namespace DocumentManagement_WebClient
 {
     public partial class Signup : System.Web.UI.Page
     {
-        UserService.UserServiceClient proxy;
+        UserServiceClient proxy;
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -18,7 +18,7 @@ namespace DocumentManagement_WebClient
         }
         protected void Button1_Click(object sender, EventArgs e)
         {
-            proxy= new UserService.UserServiceClient("BasicHttpBinding_IUserService");
+            proxy= new UserServiceClient("BasicHttpBinding_IUserService");
             UserService.User new_user = new User();
             new_user.Username = Username.Text;
             new_user.Email = Email.Text;

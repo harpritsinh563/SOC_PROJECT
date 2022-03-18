@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="5e35fc8a-f59d-4bf8-bc6d-67a61981907b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8000/DocumentService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="DocumentService.xsd" MetadataType="Schema" ID="97ae9f6c-6901-4abb-8d74-e28454c8927b" SourceId="1" SourceUrl="http://localhost:8000/DocumentService?xsd=xsd1" />
+    <MetadataFile FileName="DocumentService1.xsd" MetadataType="Schema" ID="e411ba6f-e8e8-4123-82c2-51b3a0ff90bb" SourceId="1" SourceUrl="http://localhost:8000/DocumentService?xsd=xsd3" />
+    <MetadataFile FileName="DocumentService.disco" MetadataType="Disco" ID="24d32d06-00d1-480c-9ce4-73d161a8f5d5" SourceId="1" SourceUrl="http://localhost:8000/DocumentService?disco" />
+    <MetadataFile FileName="DocumentService2.xsd" MetadataType="Schema" ID="78cf722d-d4c8-494a-997a-03d0d616a51a" SourceId="1" SourceUrl="http://localhost:8000/DocumentService?xsd=xsd2" />
+    <MetadataFile FileName="DocumentService.wsdl" MetadataType="Wsdl" ID="4d04ae58-dc0e-4eec-81d2-03e9da99edee" SourceId="1" SourceUrl="http://localhost:8000/DocumentService?wsdl" />
+    <MetadataFile FileName="DocumentService3.xsd" MetadataType="Schema" ID="8a6db68c-ae5c-4fd7-a54f-f6a251ec22c4" SourceId="1" SourceUrl="http://localhost:8000/DocumentService?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
