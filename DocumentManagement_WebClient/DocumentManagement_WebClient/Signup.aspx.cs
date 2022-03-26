@@ -25,7 +25,7 @@ namespace DocumentManagement_WebClient
             new_user.Password = Password.Text;
             int signup_success = proxy.Signup(new_user);
             if (signup_success == 1)
-                Status.Text = "Signup Successful";
+                Response.Redirect("~/Login.aspx");
             else
                 Status.Text = "Signup Failed";
 

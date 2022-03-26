@@ -27,6 +27,9 @@ namespace DocumentManagement
             cmd.Parameters.AddWithValue("@Username", username);
             cmd.Parameters.AddWithValue("@Password", password);
             User logged_in_user = new User();
+            //logged_in_user.Username = "-";
+            // Error handling left
+
             conn.Open();
             SqlDataReader dr = cmd.ExecuteReader();
             while(dr.Read())

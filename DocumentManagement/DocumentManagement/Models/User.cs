@@ -11,7 +11,7 @@ namespace DocumentManagement.Models
     public class User
     {
         private int userId;
-        private string username;
+        private string username="-";
         private string password;
         private string email;
 

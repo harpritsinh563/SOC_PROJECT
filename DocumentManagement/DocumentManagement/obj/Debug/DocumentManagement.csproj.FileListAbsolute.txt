@@ -5,3 +5,10 @@ D:\DDUSEM6\SOC\Project\DocumentManagement\DocumentManagement\bin\Debug\DocumentM
 D:\DDUSEM6\SOC\Project\DocumentManagement\DocumentManagement\bin\Debug\DocumentManagement.pdb
 D:\DDUSEM6\SOC\Project\DocumentManagement\DocumentManagement\obj\Debug\DocumentManagement.dll
 D:\DDUSEM6\SOC\Project\DocumentManagement\DocumentManagement\obj\Debug\DocumentManagement.pdb
+C:\Users\17323\Desktop\Vrundan\SOC Project\DocumentManagement\DocumentManagement\bin\Debug\DocumentManagement.dll.config
+C:\Users\17323\Desktop\Vrundan\SOC Project\DocumentManagement\DocumentManagement\bin\Debug\DocumentManagement.dll
+C:\Users\17323\Desktop\Vrundan\SOC Project\DocumentManagement\DocumentManagement\bin\Debug\DocumentManagement.pdb
+C:\Users\17323\Desktop\Vrundan\SOC Project\DocumentManagement\DocumentManagement\obj\Debug\DocumentManagement.csproj.AssemblyReference.cache
+C:\Users\17323\Desktop\Vrundan\SOC Project\DocumentManagement\DocumentManagement\obj\Debug\DocumentManagement.csproj.CoreCompileInputs.cache
+C:\Users\17323\Desktop\Vrundan\SOC Project\DocumentManagement\DocumentManagement\obj\Debug\DocumentManagement.dll
+C:\Users\17323\Desktop\Vrundan\SOC Project\DocumentManagement\DocumentManagement\obj\Debug\DocumentManagement.pdb

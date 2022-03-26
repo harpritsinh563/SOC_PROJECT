@@ -9,3 +9,15 @@ D:\DDUSEM6\SOC\Project\DocumentManagement_Host\DocumentManagement_Host\obj\Debug
 D:\DDUSEM6\SOC\Project\DocumentManagement_Host\DocumentManagement_Host\obj\Debug\DocumentManagement_Host.csproj.CopyComplete
 D:\DDUSEM6\SOC\Project\DocumentManagement_Host\DocumentManagement_Host\obj\Debug\DocumentManagement_Host.exe
 D:\DDUSEM6\SOC\Project\DocumentManagement_Host\DocumentManagement_Host\obj\Debug\DocumentManagement_Host.pdb
+C:\Users\17323\Desktop\Vrundan\SOC Project\DocumentManagement_Host\DocumentManagement_Host\bin\Debug\DocumentManagement_Host.exe.config
+C:\Users\17323\Desktop\Vrundan\SOC Project\DocumentManagement_Host\DocumentManagement_Host\bin\Debug\DocumentManagement_Host.exe
+C:\Users\17323\Desktop\Vrundan\SOC Project\DocumentManagement_Host\DocumentManagement_Host\bin\Debug\DocumentManagement_Host.pdb
+C:\Users\17323\Desktop\Vrundan\SOC Project\DocumentManagement_Host\DocumentManagement_Host\bin\Debug\DocumentManagement.dll
+C:\Users\17323\Desktop\Vrundan\SOC Project\DocumentManagement_Host\DocumentManagement_Host\bin\Debug\DocumentManagement.pdb
+C:\Users\17323\Desktop\Vrundan\SOC Project\DocumentManagement_Host\DocumentManagement_Host\bin\Debug\DocumentManagement.dll.config
+C:\Users\17323\Desktop\Vrundan\SOC Project\DocumentManagement_Host\DocumentManagement_Host\obj\Debug\DocumentManagement_Host.csproj.AssemblyReference.cache
+C:\Users\17323\Desktop\Vrundan\SOC Project\DocumentManagement_Host\DocumentManagement_Host\obj\Debug\DocumentManagement_Host.csproj.SuggestedBindingRedirects.cache
+C:\Users\17323\Desktop\Vrundan\SOC Project\DocumentManagement_Host\DocumentManagement_Host\obj\Debug\DocumentManagement_Host.csproj.CoreCompileInputs.cache
+C:\Users\17323\Desktop\Vrundan\SOC Project\DocumentManagement_Host\DocumentManagement_Host\obj\Debug\DocumentManagement_Host.csproj.CopyComplete
+C:\Users\17323\Desktop\Vrundan\SOC Project\DocumentManagement_Host\DocumentManagement_Host\obj\Debug\DocumentManagement_Host.exe
+C:\Users\17323\Desktop\Vrundan\SOC Project\DocumentManagement_Host\DocumentManagement_Host\obj\Debug\DocumentManagement_Host.pdb

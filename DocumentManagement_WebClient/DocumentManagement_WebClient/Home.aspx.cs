@@ -18,15 +18,27 @@ namespace DocumentManagement_WebClient
         {
             proxy = new DocumentServiceClient("BasicHttpBinding_IDocumentService");
             DataSet ds = new DataSet();
-            ds = proxy.GetDocumentsOfUser(1);   // User Id hardcoded for now later on fetch it from session
+            ds = proxy.GetDocumentsOfUser(Convert.ToInt32(Session["userId"])); 
             UserDocs.DataSource = ds.Tables[0];
             UserDocs.DataBind();
         }
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            if(Session["userId"] == null)
+            {
+                Response.Redirect("~/Login.aspx");
+            }
             FetchDocs();
-           
+            
+        }
+        protected void HandleDelete(object sender,EventArgs e)
+        {
+            LinkButton btn = (LinkButton)sender;
+            int docId = Convert.ToInt32(btn.CommandArgument);
+            DocumentServiceClient proxy = new DocumentServiceClient("BasicHttpBinding_IDocumentService");
+            int docId2 = Convert.ToInt32(proxy.RemoveDocument(docId));
+            FetchDocs();
         }
         protected void HandleAdd(object sender, EventArgs e)
         {
@@ -38,7 +50,7 @@ namespace DocumentManagement_WebClient
             newdoc.DocumentPath = pathstring;
             newdoc.DocumentType = document_type.SelectedValue.ToString();
 
-            newdoc.UserId = 1;  // Hardcoded for testing for now later fetch it from session
+            newdoc.UserId = Convert.ToInt32(Session["userId"]);
             int added = proxy.AddDocument(newdoc);
             if (added == 1)
             {
@@ -65,6 +77,12 @@ namespace DocumentManagement_WebClient
                 Response.BinaryWrite(Filebuffer);
             }
  
+        }
+
+        protected void Unnamed_Click(object sender, EventArgs e)
+        {
+            Session.Abandon();
+            Response.Redirect("~/Login.aspx");
         }
     }
 }

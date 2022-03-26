@@ -45,7 +45,7 @@ namespace DocumentManagement
         public int RemoveDocument(int docId)
         {
             initDb();
-            cmd.CommandText = "DELETE FROM [Document] WHERE docId=@DocId";
+            cmd.CommandText = "DELETE FROM [Document] WHERE documentId=@DocId";
             cmd.Parameters.AddWithValue("@DocId", docId);
             conn.Open();
             cmd.ExecuteNonQuery();
@@ -56,7 +56,7 @@ namespace DocumentManagement
         public Document GetDocument(int docId)
         {
             Document doc = new Document();
-            cmd.CommandText = "SELECT * FROM [Document] WHERE docId=@DocId";
+            cmd.CommandText = "SELECT * FROM [Document] WHERE documentId=@DocId";
             cmd.Parameters.AddWithValue("@DocId", docId);
             conn.Open();
             SqlDataReader dr = cmd.ExecuteReader();

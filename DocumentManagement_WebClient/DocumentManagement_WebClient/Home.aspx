@@ -5,6 +5,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+     <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
 </head>
 <body>
@@ -44,13 +50,17 @@
                             <td><%# Eval("documentType") %></td>
                             <td>
                             <asp:LinkButton ID="OpenFile" OnClick="OpenFile_Click" CommandArgument='<%# Eval("documentPath")%>' runat="server">Open</asp:LinkButton></td>
+                            <td><asp:LinkButton OnClick="HandleDelete" CommandArgument='<%# Eval("documentId") %>'  ID="LinkButton2" runat="server">Delete</asp:LinkButton></td>
+                            
                         </tr>
+                    
+                        
                     </tbody>
                 </ItemTemplate>
 
 
                 </asp:DataList>
-            
+            <asp:Button name="logout" onClick="Unnamed_Click" runat="server" text="Logout"/>
             
             </div>
 
