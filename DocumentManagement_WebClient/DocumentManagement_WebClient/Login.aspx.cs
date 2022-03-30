@@ -20,7 +20,6 @@ namespace DocumentManagement_WebClient
         {
             proxy = new UserService.UserServiceClient("BasicHttpBinding_IUserService");
             UserService.User fetched_user  = proxy.Login(Username.Text,Password.Text);
-            status.Text = fetched_user.Username;
             if (fetched_user.Username == "-")
                 status.Text = "Login Failed.Please Enter Correct Credentials";
             else
