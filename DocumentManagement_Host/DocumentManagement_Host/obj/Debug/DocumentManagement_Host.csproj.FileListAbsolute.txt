@@ -21,3 +21,14 @@ C:\Users\17323\Desktop\Vrundan\SOC Project\DocumentManagement_Host\DocumentManag
 C:\Users\17323\Desktop\Vrundan\SOC Project\DocumentManagement_Host\DocumentManagement_Host\obj\Debug\DocumentManagement_Host.csproj.CopyComplete
 C:\Users\17323\Desktop\Vrundan\SOC Project\DocumentManagement_Host\DocumentManagement_Host\obj\Debug\DocumentManagement_Host.exe
 C:\Users\17323\Desktop\Vrundan\SOC Project\DocumentManagement_Host\DocumentManagement_Host\obj\Debug\DocumentManagement_Host.pdb
+D:\Development\DOC MGMT\DocumentManagement_Host\DocumentManagement_Host\bin\Debug\DocumentManagement_Host.exe.config
+D:\Development\DOC MGMT\DocumentManagement_Host\DocumentManagement_Host\bin\Debug\DocumentManagement_Host.exe
+D:\Development\DOC MGMT\DocumentManagement_Host\DocumentManagement_Host\bin\Debug\DocumentManagement_Host.pdb
+D:\Development\DOC MGMT\DocumentManagement_Host\DocumentManagement_Host\bin\Debug\DocumentManagement.dll
+D:\Development\DOC MGMT\DocumentManagement_Host\DocumentManagement_Host\bin\Debug\DocumentManagement.pdb
+D:\Development\DOC MGMT\DocumentManagement_Host\DocumentManagement_Host\bin\Debug\DocumentManagement.dll.config
+D:\Development\DOC MGMT\DocumentManagement_Host\DocumentManagement_Host\obj\Debug\DocumentManagement_Host.csproj.AssemblyReference.cache
+D:\Development\DOC MGMT\DocumentManagement_Host\DocumentManagement_Host\obj\Debug\DocumentManagement_Host.csproj.CoreCompileInputs.cache
+D:\Development\DOC MGMT\DocumentManagement_Host\DocumentManagement_Host\obj\Debug\DocumentManagement_Host.csproj.CopyComplete
+D:\Development\DOC MGMT\DocumentManagement_Host\DocumentManagement_Host\obj\Debug\DocumentManagement_Host.exe
+D:\Development\DOC MGMT\DocumentManagement_Host\DocumentManagement_Host\obj\Debug\DocumentManagement_Host.pdb

@@ -16,7 +16,7 @@ namespace DocumentManagement
         int AddDocument(Document doc);
 
         [OperationContract]
-        int RemoveDocument(int docId);
+        string RemoveDocument(int docId);
 
         [OperationContract]
         Document GetDocument(int docId);

@@ -69,7 +69,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AddDocument.aspx" />
     <Content Include="Connected Services\DocumentServiceReference\DocumentManagement_WebClient.DocumentServiceReference.Document.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
@@ -120,13 +119,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddDocument.aspx.cs">
-      <DependentUpon>AddDocument.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AddDocument.aspx.designer.cs">
-      <DependentUpon>AddDocument.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Connected Services\DocumentServiceReference\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

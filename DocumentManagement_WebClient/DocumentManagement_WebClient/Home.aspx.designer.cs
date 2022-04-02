@@ -24,6 +24,24 @@ namespace DocumentManagement_WebClient
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
+        /// edit_user control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink edit_user;
+
+        /// <summary>
+        /// User_Action control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label User_Action;
+
+        /// <summary>
         /// document_type control.
         /// </summary>
         /// <remarks>
@@ -42,15 +60,6 @@ namespace DocumentManagement_WebClient
         protected global::System.Web.UI.WebControls.FileUpload documentFile;
 
         /// <summary>
-        /// Status control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Status;
-
-        /// <summary>
         /// Button1 control.
         /// </summary>
         /// <remarks>
@@ -58,6 +67,15 @@ namespace DocumentManagement_WebClient
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button1;
+
+        /// <summary>
+        /// Status control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Status;
 
         /// <summary>
         /// UserDocs control.

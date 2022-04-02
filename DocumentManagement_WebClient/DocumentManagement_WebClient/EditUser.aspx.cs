@@ -39,12 +39,20 @@ namespace DocumentManagement_WebClient
             new_user.ContactNo = Contact.Text;
             new_user.UserId = Convert.ToInt32(Session["userId"]);
             Status.Text = Session["userId"].ToString();
-            int signup_success = proxy.Update(new_user);
+            int update_success = proxy.Update(new_user);
             //Status.Text = signup_success.ToString();    
-            //if (signup_success == 1)
-            //    Response.Redirect("~/Home.aspx");
-            //else
-            //    Status.Text = "Update Failed";
+            if (update_success == 1)
+            {
+                Session["username"] = new_user.Username;
+                Session["email"] = new_user.Email;
+                Session["name"] = new_user.Name;
+                Session["address"] = new_user.Address;
+                Session["contact"] = new_user.ContactNo;
+                Session["userId"] = new_user.UserId;
+                Response.Redirect("~/Home.aspx?updated=1");
+            }
+            else
+                Status.Text = "Update Failed";
 
 
 

@@ -13,7 +13,11 @@ namespace DocumentManagement_WebClient
         UserService.UserServiceClient proxy;
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Convert.ToInt32(Request.QueryString["loggedout"]) == 1)
+            {
+                User_Action.ForeColor = System.Drawing.Color.Green;
+                User_Action.Text = "Successfully logged out";
+            }
 
         }
         protected void Button1_Click(object sender, EventArgs e)

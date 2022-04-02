@@ -42,22 +42,24 @@ namespace DocumentManagement
             conn.Close();
             return 1;
         }
-        public int RemoveDocument(int docId)
+        public string RemoveDocument(int docId)
         {
             initDb();
-            cmd.CommandText = "DELETE FROM [Document] WHERE documentId=@DocId";
-            cmd.Parameters.AddWithValue("@DocId", docId);
+            Document doc = new Document();
+            doc = GetDocument(docId);
+            cmd.CommandText = "DELETE FROM [Document] WHERE documentId=@DocumentId1";
+            cmd.Parameters.AddWithValue("@DocumentId1", docId);
             conn.Open();
             cmd.ExecuteNonQuery();
             conn.Close();
-            return 1;
+            return doc.DocumentPath;
         }
 
         public Document GetDocument(int docId)
         {
             Document doc = new Document();
-            cmd.CommandText = "SELECT * FROM [Document] WHERE documentId=@DocId";
-            cmd.Parameters.AddWithValue("@DocId", docId);
+            cmd.CommandText = "SELECT * FROM [Document] WHERE documentId=@DocumentId";
+            cmd.Parameters.AddWithValue("@DocumentId", docId);
             conn.Open();
             SqlDataReader dr = cmd.ExecuteReader();
             while (dr.Read())

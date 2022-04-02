@@ -12,3 +12,10 @@ C:\Users\17323\Desktop\Vrundan\SOC Project\DocumentManagement\DocumentManagement
 C:\Users\17323\Desktop\Vrundan\SOC Project\DocumentManagement\DocumentManagement\obj\Debug\DocumentManagement.csproj.CoreCompileInputs.cache
 C:\Users\17323\Desktop\Vrundan\SOC Project\DocumentManagement\DocumentManagement\obj\Debug\DocumentManagement.dll
 C:\Users\17323\Desktop\Vrundan\SOC Project\DocumentManagement\DocumentManagement\obj\Debug\DocumentManagement.pdb
+D:\Development\DOC MGMT\DocumentManagement\DocumentManagement\bin\Debug\DocumentManagement.dll.config
+D:\Development\DOC MGMT\DocumentManagement\DocumentManagement\bin\Debug\DocumentManagement.dll
+D:\Development\DOC MGMT\DocumentManagement\DocumentManagement\bin\Debug\DocumentManagement.pdb
+D:\Development\DOC MGMT\DocumentManagement\DocumentManagement\obj\Debug\DocumentManagement.csproj.AssemblyReference.cache
+D:\Development\DOC MGMT\DocumentManagement\DocumentManagement\obj\Debug\DocumentManagement.csproj.CoreCompileInputs.cache
+D:\Development\DOC MGMT\DocumentManagement\DocumentManagement\obj\Debug\DocumentManagement.dll
+D:\Development\DOC MGMT\DocumentManagement\DocumentManagement\obj\Debug\DocumentManagement.pdb

@@ -25,7 +25,7 @@
   <xs:element name="RemoveDocumentResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element minOccurs="0" name="RemoveDocumentResult" type="xs:int" />
+        <xs:element minOccurs="0" name="RemoveDocumentResult" nillable="true" type="xs:string" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

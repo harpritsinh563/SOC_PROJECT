@@ -117,10 +117,10 @@ namespace DocumentManagement_WebClient.DocumentServiceReference {
         System.Threading.Tasks.Task<int> AddDocumentAsync(DocumentManagement_WebClient.DocumentServiceReference.Document doc);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDocumentService/RemoveDocument", ReplyAction="http://tempuri.org/IDocumentService/RemoveDocumentResponse")]
-        int RemoveDocument(int docId);
+        string RemoveDocument(int docId);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDocumentService/RemoveDocument", ReplyAction="http://tempuri.org/IDocumentService/RemoveDocumentResponse")]
-        System.Threading.Tasks.Task<int> RemoveDocumentAsync(int docId);
+        System.Threading.Tasks.Task<string> RemoveDocumentAsync(int docId);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDocumentService/GetDocument", ReplyAction="http://tempuri.org/IDocumentService/GetDocumentResponse")]
         DocumentManagement_WebClient.DocumentServiceReference.Document GetDocument(int docId);
@@ -170,11 +170,11 @@ namespace DocumentManagement_WebClient.DocumentServiceReference {
             return base.Channel.AddDocumentAsync(doc);
         }
         
-        public int RemoveDocument(int docId) {
+        public string RemoveDocument(int docId) {
             return base.Channel.RemoveDocument(docId);
         }
         
-        public System.Threading.Tasks.Task<int> RemoveDocumentAsync(int docId) {
+        public System.Threading.Tasks.Task<string> RemoveDocumentAsync(int docId) {
             return base.Channel.RemoveDocumentAsync(docId);
         }
         
