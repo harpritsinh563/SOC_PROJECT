@@ -26,6 +26,9 @@ namespace DocumentManagement_WebClient
             {
                 Session["username"] = fetched_user.Username;
                 Session["email"] = fetched_user.Email;
+                Session["name"] = fetched_user.Name; 
+                Session["address"] = fetched_user.Address;
+                Session["contact"] = fetched_user.ContactNo;
                 Session["userId"]= fetched_user.UserId;
                 Response.Redirect("~/home.aspx");
             }

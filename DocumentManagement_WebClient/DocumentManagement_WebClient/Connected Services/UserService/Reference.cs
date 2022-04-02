@@ -23,7 +23,16 @@ namespace DocumentManagement_WebClient.UserService {
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string AddressField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string ContactNoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string EmailField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string NameField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string PasswordField;
@@ -45,6 +54,32 @@ namespace DocumentManagement_WebClient.UserService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Address {
+            get {
+                return this.AddressField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.AddressField, value) != true)) {
+                    this.AddressField = value;
+                    this.RaisePropertyChanged("Address");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string ContactNo {
+            get {
+                return this.ContactNoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.ContactNoField, value) != true)) {
+                    this.ContactNoField = value;
+                    this.RaisePropertyChanged("ContactNo");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
         public string Email {
             get {
                 return this.EmailField;
@@ -53,6 +88,19 @@ namespace DocumentManagement_WebClient.UserService {
                 if ((object.ReferenceEquals(this.EmailField, value) != true)) {
                     this.EmailField = value;
                     this.RaisePropertyChanged("Email");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Name {
+            get {
+                return this.NameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NameField, value) != true)) {
+                    this.NameField = value;
+                    this.RaisePropertyChanged("Name");
                 }
             }
         }
@@ -121,6 +169,12 @@ namespace DocumentManagement_WebClient.UserService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUserService/Login", ReplyAction="http://tempuri.org/IUserService/LoginResponse")]
         System.Threading.Tasks.Task<DocumentManagement_WebClient.UserService.User> LoginAsync(string username, string password);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUserService/Update", ReplyAction="http://tempuri.org/IUserService/UpdateResponse")]
+        int Update(DocumentManagement_WebClient.UserService.User user);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUserService/Update", ReplyAction="http://tempuri.org/IUserService/UpdateResponse")]
+        System.Threading.Tasks.Task<int> UpdateAsync(DocumentManagement_WebClient.UserService.User user);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -164,6 +218,14 @@ namespace DocumentManagement_WebClient.UserService {
         
         public System.Threading.Tasks.Task<DocumentManagement_WebClient.UserService.User> LoginAsync(string username, string password) {
             return base.Channel.LoginAsync(username, password);
+        }
+        
+        public int Update(DocumentManagement_WebClient.UserService.User user) {
+            return base.Channel.Update(user);
+        }
+        
+        public System.Threading.Tasks.Task<int> UpdateAsync(DocumentManagement_WebClient.UserService.User user) {
+            return base.Channel.UpdateAsync(user);
         }
     }
 }

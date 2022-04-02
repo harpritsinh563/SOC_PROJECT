@@ -14,7 +14,28 @@ namespace DocumentManagement.Models
         private string username="-";
         private string password;
         private string email;
+        private string name;
+        private string contactNo;
+        private string address;
 
+        [DataMember]
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
+        [DataMember]
+        public string ContactNo
+        {
+            get { return contactNo; }
+            set { contactNo = value; }
+        }
+        [DataMember]
+        public string Address
+        {
+            get { return address; }
+            set { address = value; }
+        }
         [DataMember]
         public string Username
         {

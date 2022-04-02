@@ -16,5 +16,8 @@ namespace DocumentManagement
 
         [OperationContract]
         User Login(string username,string password);
+
+        [OperationContract]
+        int Update(User user);
     }
 }

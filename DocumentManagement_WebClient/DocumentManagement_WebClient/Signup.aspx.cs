@@ -23,6 +23,9 @@ namespace DocumentManagement_WebClient
             new_user.Username = Username.Text;
             new_user.Email = Email.Text;
             new_user.Password = Password.Text;
+            new_user.Name = Name.Text;
+            new_user.Address = Address.Text;
+            new_user.ContactNo = Contact.Text;
             int signup_success = proxy.Signup(new_user);
             if (signup_success == 1)
                 Response.Redirect("~/Login.aspx");
